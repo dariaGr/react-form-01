@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+*:focus {
+  outline: none;
+}
+
+input:focus {
+  outline: #0099cc solid 2px;
+}
